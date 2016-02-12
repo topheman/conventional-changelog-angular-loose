@@ -4,7 +4,8 @@
   "description": "conventional-changelog angular preset (for those who missed the colon)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "jshint *.js --exclude node_modules && jscs *.js",
+    "test": "mocha --timeout 30000 && npm run-script lint"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,15 @@
   "dependencies": {
     "conventional-changelog-angular": "^1.0.0",
     "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "conventional-changelog-core": "^1.2.0",
+    "git-dummy-commit": "^1.2.1",
+    "jscs": "^2.9.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "shelljs": "^0.6.0",
+    "through2": "^2.0.1"
   }
 }
