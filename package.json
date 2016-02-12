@@ -1,0 +1,30 @@
+{
+  "name": "conventional-changelog-angular-loose",
+  "version": "0.1.0",
+  "description": "conventional-changelog angular preset (for those who missed the colon)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topheman/conventional-changelog-angular-loose.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "angular",
+    "preset",
+    "loose",
+    "missing colon"
+  ],
+  "author": "Christophe Rosset <tophe@topheman.com> (http://labs.topheman.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/topheman/conventional-changelog-angular-loose/issues"
+  },
+  "homepage": "https://github.com/stevemao/conventional-changelog-angular-loose#readme",
+  "dependencies": {
+    "conventional-changelog-angular": "^1.0.0",
+    "q": "^1.4.1"
+  }
+}
