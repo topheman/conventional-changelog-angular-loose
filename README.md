@@ -7,7 +7,7 @@ If instead of: feat(*)`:` subject with the colon
 
 Your commits look like: feat(*) subject missing the colon
 
-This preset will let you use [conventional-changelog](https://github.com/ajoslin/conventional-changelog).
+This config can be used with [conventional-changelog](https://github.com/ajoslin/conventional-changelog) exactly like the preset [conventional-changelog-angular](https://github.com/stevemao/conventional-changelog-angular).
 
 [npm-image]: https://badge.fury.io/js/conventional-changelog-angular-loose.svg
 [npm-url]: https://npmjs.org/package/conventional-changelog-angular-loose

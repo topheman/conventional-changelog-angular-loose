@@ -1,7 +1,7 @@
 {
   "name": "conventional-changelog-angular-loose",
   "version": "0.1.1",
-  "description": "conventional-changelog angular preset (for those who missed the colon)",
+  "description": "conventional-changelog angular config (for those who missed the colon)",
   "main": "index.js",
   "scripts": {
     "lint": "jshint *.js --exclude node_modules && jscs *.js",
@@ -25,8 +25,7 @@
   },
   "homepage": "https://github.com/stevemao/conventional-changelog-angular-loose#readme",
   "dependencies": {
-    "conventional-changelog-angular": "^1.0.0",
-    "q": "^1.4.1"
+    "conventional-changelog-angular": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
