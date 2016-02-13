@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-angular-loose",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "conventional-changelog angular config (for those who missed the colon)",
   "main": "index.js",
   "scripts": {
